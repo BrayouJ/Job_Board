@@ -1,0 +1,50 @@
+{
+    "firms" : [
+        {
+            "id_firm" : 0,
+            "firm_name" : "firm_test",
+            "headquarters" : "hq_test",
+            "industry" : "industry_test",
+            "email" : "test@mail.com",
+            "password" : "test"
+        },
+        {
+            "id_firm" : 1,
+            "firm_name" : "firm_test_2",
+            "headquarters" : "hq_test_2",
+            "industry" : "industry_test_2",
+            "email" : "test2@mail.com",
+            "password" : "test2"
+        }
+    ],
+    "adverts" : [
+        {
+            "id_advert" : 0,
+            "job_title" : "tester",
+            "id_firm" : 0,
+            "city" : "test_city",
+            "contract_type" : "apprenticeship",
+            "contract_duration" : "1 year",
+            "salary" : "1000.0",
+            "date_of_post" : "1994-11-05T13:15:30Z",
+            "description" : "advert test",
+            "degree_required" : "NULL",
+            "experience" : "NULL",
+            "business_hours" : "NULL"
+        },
+        {
+            "id_advert" : 1,
+            "job_title" : "tester2",
+            "id_firm" : 1,
+            "city" : "test_city_2",
+            "contract_type" : "apprenticeship",
+            "contract_duration" : "2 years",
+            "salary" : "2000.0",
+            "date_of_post" : "2002-11-05T13:15:30Z",
+            "description" : "advert test 2",
+            "degree_required" : "NULL",
+            "experience" : "NULL",
+            "business_hours" : "NULL"
+        }
+    ]
+}

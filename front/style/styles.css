@@ -1,0 +1,487 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+body, nav button, form button, .inscription_page, .btn, .submit_button, .open-button, button[id^="button-"] {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+}
+
+header h1 a {
+    color: #4B0082;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav button:hover {
+    background-color: white;
+    color: blue;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauche {
+    padding: 20px;
+    margin-left: 15%;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.droite {
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.droite img {
+    max-width: 100%;
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+}
+
+footer {
+    background-color: rgba(37, 37, 225, 0.271); 
+    height: auto; 
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="number"]:focus {
+    outline: none;
+    border-color: blue;
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.more {display: none;}
+
+.visi {display: contents;}
+
+.inscription.employeur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18.9px 0 0 0;
+    text-align: center;
+}
+
+.inscription-candidat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18.9px 0 0 0;
+    text-align: center;
+}
+
+.inscription.entreprise {
+    width: 500px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.inscription-utilisateur {
+    width: 500px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.entrer_votre_annonce {
+    width: 500px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.annonce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18.9px 0 0 0;
+    text-align: center;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.submit_button {
+    background-color: #0000ff;
+    color: white;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+.submit_button:hover {
+    background-color: white;
+    color: blue;
+}
+
+input[type="file"]#cv {
+    background-color: #d6d6ff; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="file"]#cv:hover {
+    background-color: #9b9bdc; 
+}
+
+.selection_status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    gap: 10px; 
+}
+
+.inscription_page {
+    background-color: blue; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inscription_page:hover {
+    background-color: darkblue; 
+}
+
+.h2_annonce {
+    font-size: 24px;
+    color: #2f003c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grille {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 10px;
+}
+
+.case {
+    background-color: #E6E6FF;
+    color: #1a0022;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.form-popup {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: rgba(37, 37, 225, 0.271); 
+    padding: 10px; 
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.newsletter-form {
+    margin: 20px 0;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Coordonnées et heures d'ouverture */
+.contact-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.logo {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2,5em;
+    padding-left: 15px; 
+}
+
+button[id^="button-"] {
+    background-color: #8888FE; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 0; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button[id^="button-"]:hover {
+    background-color: #3E3EF6; 
+    color: white; 
+}
+
+.open-button {
+    background-color: #8888FE; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 0; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.open-button:hover {
+    background-color: #3E3EF6; 
+    color: white; 
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn.cancel {
+    background-color: #f44336;
+}
+
+.btn.cancel:hover {
+    background-color: #d32f2f;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.social-icons li a:hover {
+    color: #0073e6;
+}
+
+.grille-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+ /* Ajustez cette valeur selon vos besoins */
+}
+
+.case-footer {
+    color: #1a0022;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.case-footer-left {
+    color: #1a0022;
+    padding: 20px;
+    text-align: left;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
