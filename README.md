@@ -1,6 +1,4 @@
-<h1 align="center">JobBoard</h1>
- 
-<h1 align="center">🐝</h1>
+<h1 align="center">JobBoard 🐝</h1>
  
 Un projet collaboratif développé par une équipe de 3 étudiants dans le cadre d'un projet pédagogique. Ce jobboard permet de mettre en relation les employeurs et les candidats.
  
